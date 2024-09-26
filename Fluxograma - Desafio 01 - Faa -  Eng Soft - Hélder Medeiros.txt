@@ -1,0 +1,52 @@
+Fluxograma Desafio 1
+
+Sequência usada pro modelo
+
+1 - Datasets - Escolher um banco de dados.
+
+2 - Distributions - Ver como os dados estão distribuídos ou agrupados.
+
+3 - Scatter Plot - Ver informações em um gráfico.
+
+4 - Datatable - Ver dados em tabelas.
+
+5 - Data Sampler - Escolher porcentagem dos dados que serão usados no treinamento. 
+ 
+6 - Data Table - Um com os 80% dos dados usados no treinamento e o outro com os 20%.
+
+7 - Naive Bayes - Treinamento com os dados.
+
+8 - Predition - Prevendo com base no treinamento.
+
+9 - Confusion Matrix - Testar para ver quanto o Predition está prevendo bem.
+
+
+
+           -> Data Table
+	   -> Distributions
+	   -> Scartter Plot ou Data Plot
+Data Sets  -> Data Table  -> Data Sampler -> Data Table
+		                          -> Naive Baye -> Predition -> Confusion
+				                   
+		       
+           
+
+
+
+
+
+           -> Data Table
+	   -> Scartter Plot ou Data Plot
+Data Sets  -> Select Colum ->  Data Table
+           -> Data Sample ->  Data Table
+		      L-> Naive Baye  
+				     L-> Predition -> Confusion
+		        L-> Data Table --^
+
+
+
+
+
+
+
+
